@@ -7129,12 +7129,6 @@
 		(uuid "2d149fdd-fb00-4e4c-b10a-7b5a156717ec")
 	)
 	(junction
-		(at 387.35 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "301b2bea-bd43-4c25-9005-58b6f67080b7")
-	)
-	(junction
 		(at 304.8 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7171,12 +7165,6 @@
 		(uuid "4427593d-1f02-437a-b000-134652c62113")
 	)
 	(junction
-		(at 350.52 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47b01a97-7837-45bb-a0c1-3d95684d055b")
-	)
-	(junction
 		(at 387.35 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7189,12 +7177,6 @@
 		(uuid "4bcf1ce0-aa09-4fbc-ab95-3136b50c0c93")
 	)
 	(junction
-		(at 342.9 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4fd9a328-15d7-420a-b89e-96a57e3ae39a")
-	)
-	(junction
 		(at 34.29 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7205,6 +7187,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "513fe9fb-2d69-4b25-afe2-ca344de43d86")
+	)
+	(junction
+		(at 350.52 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "531fd05e-ff4d-4aa5-91ee-e98cf9b3c2ef")
 	)
 	(junction
 		(at 326.39 229.87)
@@ -7225,34 +7213,16 @@
 		(uuid "5c98b60e-96b8-4ca6-a1a3-97d07957caa8")
 	)
 	(junction
-		(at 358.14 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d4e2489-c8c0-4508-a88e-c572f29c66e4")
-	)
-	(junction
 		(at 264.16 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60bf8ffa-c928-4ae9-b575-420ded579497")
 	)
 	(junction
-		(at 358.14 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65d3c6eb-61f3-4845-b43d-ff2233ed9c38")
-	)
-	(junction
 		(at 335.28 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6cbfbac0-6ed2-41ca-b351-495d88c15b2d")
-	)
-	(junction
-		(at 365.76 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73848a0f-e4f4-4a02-a1d3-05ec4cd8b7ac")
 	)
 	(junction
 		(at 274.32 67.31)
@@ -7303,16 +7273,16 @@
 		(uuid "8da8c676-c1ab-4d42-9bb5-1a1702e781e1")
 	)
 	(junction
-		(at 365.76 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91385bed-f42d-4b64-b856-92b38f21c677")
-	)
-	(junction
 		(at 304.8 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93d4b6bf-b7fc-4f00-8781-42a07fc50bdd")
+	)
+	(junction
+		(at 342.9 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dcc16d7-0e98-4753-b662-0b88bc0b681c")
 	)
 	(junction
 		(at 222.25 102.87)
@@ -7324,10 +7294,10 @@
 		(at 342.9 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ac224efa-bf75-4d32-8fe9-9f1431f7256d")
+		(uuid "a9b27533-b17d-4443-a694-153aee4f8849")
 	)
 	(junction
-		(at 167.64 138.43)
+		(at 194.31 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b875fad5-3d98-48ac-ad86-6ee7539b4c15")
@@ -7363,16 +7333,16 @@
 		(uuid "cc3d9340-ad87-48d4-bb98-f44e9d9b5266")
 	)
 	(junction
+		(at 350.52 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cee25761-558f-4ea2-8641-85c7c4a5fac6")
+	)
+	(junction
 		(at 259.08 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf6da40c-2972-410d-ae96-0b225d230ca4")
-	)
-	(junction
-		(at 350.52 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d02a4bd5-af80-4be8-b14f-dd7333029b41")
 	)
 	(junction
 		(at 44.45 101.6)
@@ -7680,16 +7650,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 35.56) (xy 373.38 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0975f515-b85f-461a-937c-49159c666543")
-	)
-	(wire
-		(pts
 			(xy 80.01 129.54) (xy 80.01 128.27)
 		)
 		(stroke
@@ -7737,6 +7697,16 @@
 			(type default)
 		)
 		(uuid "0bc91430-c5ad-4877-ac36-118c46a022d9")
+	)
+	(wire
+		(pts
+			(xy 350.52 25.4) (xy 358.14 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c24c22e-5567-4cf7-8fd1-97d3667120af")
 	)
 	(wire
 		(pts
@@ -7817,16 +7787,6 @@
 			(type default)
 		)
 		(uuid "0fa56339-e18e-4780-ae52-681d3eff1406")
-	)
-	(wire
-		(pts
-			(xy 342.9 50.8) (xy 350.52 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "101364ed-cdd2-4e96-b535-f745a6b2cdf1")
 	)
 	(wire
 		(pts
@@ -7917,16 +7877,6 @@
 			(type default)
 		)
 		(uuid "1b45097f-480b-47a2-b085-11896d1318c7")
-	)
-	(wire
-		(pts
-			(xy 358.14 35.56) (xy 358.14 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b5648ae-f9f6-4941-866e-ff5af1f6cbb7")
 	)
 	(wire
 		(pts
@@ -8030,16 +7980,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 25.4) (xy 373.38 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "221dbb56-fd0d-4b91-9b00-b48acb210b02")
-	)
-	(wire
-		(pts
 			(xy 149.86 182.88) (xy 149.86 184.15)
 		)
 		(stroke
@@ -8070,7 +8010,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 147.32) (xy 163.83 149.86)
+			(xy 190.5 147.32) (xy 190.5 149.86)
 		)
 		(stroke
 			(width 0)
@@ -8180,16 +8120,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 60.96) (xy 358.14 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "290ee74d-7ace-492a-99c7-be575e6fd539")
-	)
-	(wire
-		(pts
 			(xy 87.63 204.47) (xy 88.9 204.47)
 		)
 		(stroke
@@ -8287,16 +8217,6 @@
 			(type default)
 		)
 		(uuid "32bb96af-cd49-472e-ab73-481ad675aa62")
-	)
-	(wire
-		(pts
-			(xy 358.14 25.4) (xy 365.76 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "330d9818-88ae-4929-8d93-1be801baca5d")
 	)
 	(wire
 		(pts
@@ -8447,16 +8367,6 @@
 			(type default)
 		)
 		(uuid "3c70d073-b194-4511-80d0-c8da8067a2a1")
-	)
-	(wire
-		(pts
-			(xy 350.52 25.4) (xy 350.52 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c8568cb-96ff-4286-8e1f-376e58b3b556")
 	)
 	(wire
 		(pts
@@ -8650,16 +8560,6 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 50.8) (xy 373.38 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46875e14-fe5b-4bb6-9f5c-5594e9dbc0b2")
-	)
-	(wire
-		(pts
 			(xy 342.9 35.56) (xy 342.9 34.29)
 		)
 		(stroke
@@ -8710,7 +8610,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 149.86) (xy 171.45 147.32)
+			(xy 198.12 149.86) (xy 198.12 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8727,6 +8627,16 @@
 			(type default)
 		)
 		(uuid "4c7090f0-f51f-464d-8a39-c1330514d54a")
+	)
+	(wire
+		(pts
+			(xy 342.9 25.4) (xy 350.52 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb77836-5780-4e9d-b12f-40d5597fb161")
 	)
 	(wire
 		(pts
@@ -8747,16 +8657,6 @@
 			(type default)
 		)
 		(uuid "4cce5b45-994d-429c-bedf-74b1512ab4e3")
-	)
-	(wire
-		(pts
-			(xy 350.52 60.96) (xy 350.52 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d359a62-f60f-4926-80b2-fc9d7bce66f4")
 	)
 	(wire
 		(pts
@@ -8810,16 +8710,6 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 50.8) (xy 350.52 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "526900bc-81a6-4a23-a1b9-5b5e4f6b6aa1")
-	)
-	(wire
-		(pts
 			(xy 21.59 36.83) (xy 21.59 35.56)
 		)
 		(stroke
@@ -8837,16 +8727,6 @@
 			(type default)
 		)
 		(uuid "53b45d87-5fce-4cf6-85ea-eac36972cdca")
-	)
-	(wire
-		(pts
-			(xy 387.35 35.56) (xy 387.35 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53f2815d-df9d-4557-bd01-b6d6c1c79a9c")
 	)
 	(wire
 		(pts
@@ -8880,23 +8760,23 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 138.43) (xy 163.83 138.43)
+			(xy 350.52 25.4) (xy 350.52 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a380f9-f310-4973-b3bc-c08c6f2e2ab2")
+	)
+	(wire
+		(pts
+			(xy 194.31 138.43) (xy 190.5 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5721b78d-7816-4c89-b268-85d0535c6215")
-	)
-	(wire
-		(pts
-			(xy 394.97 25.4) (xy 394.97 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5748a086-a4d0-447a-af86-05ab25686c76")
 	)
 	(wire
 		(pts
@@ -8970,6 +8850,16 @@
 	)
 	(wire
 		(pts
+			(xy 342.9 50.8) (xy 350.52 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0c9556-f918-4fa9-ae1d-6965921f2b0f")
+	)
+	(wire
+		(pts
 			(xy 304.8 60.96) (xy 304.8 59.69)
 		)
 		(stroke
@@ -9010,16 +8900,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 50.8) (xy 358.14 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "619b5a89-a2d0-4795-bc71-369310b5f28e")
-	)
-	(wire
-		(pts
 			(xy 34.29 106.68) (xy 33.02 106.68)
 		)
 		(stroke
@@ -9027,16 +8907,6 @@
 			(type default)
 		)
 		(uuid "621f8636-9b57-448f-9af1-e12ddcb73c2d")
-	)
-	(wire
-		(pts
-			(xy 394.97 35.56) (xy 394.97 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62d840f6-1060-46e2-87bc-eac99ee68cf2")
 	)
 	(wire
 		(pts
@@ -9057,16 +8927,6 @@
 			(type default)
 		)
 		(uuid "63ba9952-fab5-43c4-af31-6aab00648122")
-	)
-	(wire
-		(pts
-			(xy 365.76 25.4) (xy 365.76 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6419e259-6bfc-4b5e-a57f-d3ce5b9b4a86")
 	)
 	(wire
 		(pts
@@ -9217,6 +9077,16 @@
 			(type default)
 		)
 		(uuid "6c2503bd-3206-496c-8ab0-29460da8844c")
+	)
+	(wire
+		(pts
+			(xy 358.14 50.8) (xy 358.14 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1c67f8-22bb-4489-a73f-35897592904e")
 	)
 	(wire
 		(pts
@@ -9520,23 +9390,13 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 25.4) (xy 387.35 26.67)
+			(xy 358.14 60.96) (xy 358.14 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8211ebd5-e9c5-484b-bb5e-c7ed9c753052")
-	)
-	(wire
-		(pts
-			(xy 365.76 50.8) (xy 365.76 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "826dcdb4-97b1-458c-8b30-895478aa376e")
+		(uuid "822e2c8e-87b3-4e5c-98ac-a37b4119e510")
 	)
 	(wire
 		(pts
@@ -9697,6 +9557,16 @@
 			(type default)
 		)
 		(uuid "8dc63d43-03ce-4df2-942c-5a5761b201e8")
+	)
+	(wire
+		(pts
+			(xy 358.14 35.56) (xy 358.14 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e11aa6b-8b47-4999-84d4-f8bd2412c849")
 	)
 	(wire
 		(pts
@@ -9960,16 +9830,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 50.8) (xy 373.38 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a01a8a92-d1de-405c-997c-0cbca14ebef6")
-	)
-	(wire
-		(pts
 			(xy 304.8 232.41) (xy 326.39 232.41)
 		)
 		(stroke
@@ -10010,16 +9870,6 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 25.4) (xy 358.14 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2e3869b-61ef-44ad-ad84-a3c18b1377bf")
-	)
-	(wire
-		(pts
 			(xy 335.28 60.96) (xy 335.28 59.69)
 		)
 		(stroke
@@ -10057,6 +9907,16 @@
 			(type default)
 		)
 		(uuid "a5f7738d-16fb-470e-be2e-7ad661a647ea")
+	)
+	(wire
+		(pts
+			(xy 350.52 35.56) (xy 350.52 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ab1793-f4ce-4213-a2d1-672ea3ada5fe")
 	)
 	(wire
 		(pts
@@ -10220,6 +10080,16 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 60.96) (xy 350.52 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0571603-a573-436b-b748-04d073adcd17")
+	)
+	(wire
+		(pts
 			(xy 400.05 78.74) (xy 400.05 77.47)
 		)
 		(stroke
@@ -10330,16 +10200,6 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 35.56) (xy 350.52 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc0bb3e5-55ef-4061-9c05-57ff08c118d1")
-	)
-	(wire
-		(pts
 			(xy 304.8 26.67) (xy 304.8 25.4)
 		)
 		(stroke
@@ -10410,16 +10270,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 50.8) (xy 365.76 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfd00cdc-6e03-444c-83f1-3879764aa828")
-	)
-	(wire
-		(pts
 			(xy 228.6 58.42) (xy 226.06 58.42)
 		)
 		(stroke
@@ -10427,6 +10277,16 @@
 			(type default)
 		)
 		(uuid "bfd3768d-b8ec-4efc-9ca6-5e2acaa75ffd")
+	)
+	(wire
+		(pts
+			(xy 350.52 50.8) (xy 358.14 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c11cfdd3-404f-4e8e-9d80-de7927045723")
 	)
 	(wire
 		(pts
@@ -10660,13 +10520,23 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 138.43) (xy 171.45 139.7)
+			(xy 198.12 138.43) (xy 198.12 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cebaf51b-cfb8-4a4e-89db-205888e9cd6b")
+	)
+	(wire
+		(pts
+			(xy 350.52 50.8) (xy 350.52 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced031ba-3edb-46bd-824e-68435b5fdf72")
 	)
 	(wire
 		(pts
@@ -10677,16 +10547,6 @@
 			(type default)
 		)
 		(uuid "cf2ec686-747b-4a53-96b2-33799dd7e654")
-	)
-	(wire
-		(pts
-			(xy 365.76 60.96) (xy 365.76 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf6b2b9b-90ba-46c2-9fe8-1c439db128d4")
 	)
 	(wire
 		(pts
@@ -10780,16 +10640,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 25.4) (xy 358.14 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4f90a20-5eaf-4dd9-8a71-97c11c8cda16")
-	)
-	(wire
-		(pts
 			(xy 326.39 234.95) (xy 326.39 232.41)
 		)
 		(stroke
@@ -10880,6 +10730,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 25.4) (xy 358.14 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddc7496d-36ab-4dc4-8f9c-7e7ec25bdc7f")
+	)
+	(wire
+		(pts
 			(xy 171.45 43.18) (xy 185.42 43.18)
 		)
 		(stroke
@@ -10887,16 +10747,6 @@
 			(type default)
 		)
 		(uuid "de9f2291-7052-4435-804c-24f0c4c15eb0")
-	)
-	(wire
-		(pts
-			(xy 350.52 50.8) (xy 358.14 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dea4b303-1909-48ff-8b4b-53cc1e487830")
 	)
 	(wire
 		(pts
@@ -10940,7 +10790,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 138.43) (xy 171.45 138.43)
+			(xy 194.31 138.43) (xy 198.12 138.43)
 		)
 		(stroke
 			(width 0)
@@ -11017,16 +10867,6 @@
 			(type default)
 		)
 		(uuid "e439b377-0bf6-4965-905c-5d032b527f1c")
-	)
-	(wire
-		(pts
-			(xy 365.76 35.56) (xy 365.76 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4892b38-ca79-44fa-9eda-14e30f958c36")
 	)
 	(wire
 		(pts
@@ -11210,16 +11050,6 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 25.4) (xy 394.97 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0777090-6ec5-4574-a24b-476591ebf775")
-	)
-	(wire
-		(pts
 			(xy 140.97 182.88) (xy 140.97 184.15)
 		)
 		(stroke
@@ -11330,16 +11160,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 25.4) (xy 350.52 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7a7eccd-101c-40e3-a842-cee10c438aa2")
-	)
-	(wire
-		(pts
 			(xy 217.17 135.89) (xy 217.17 134.62)
 		)
 		(stroke
@@ -11370,7 +11190,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 138.43) (xy 163.83 139.7)
+			(xy 190.5 138.43) (xy 190.5 139.7)
 		)
 		(stroke
 			(width 0)
@@ -11417,16 +11237,6 @@
 			(type default)
 		)
 		(uuid "fba5a348-d13c-4bc2-82db-edc31c01ded3")
-	)
-	(wire
-		(pts
-			(xy 373.38 60.96) (xy 373.38 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc1f5a60-da3a-4bf3-ad9c-8d74c2e57aec")
 	)
 	(wire
 		(pts
@@ -11487,16 +11297,6 @@
 			(type default)
 		)
 		(uuid "fdbaf002-a9c6-4870-8ebe-7d4134926ffa")
-	)
-	(wire
-		(pts
-			(xy 365.76 25.4) (xy 373.38 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe8db918-2e24-44a4-9673-acbf0d61eb2a")
 	)
 	(wire
 		(pts
@@ -12397,7 +12197,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02c0ba35-67c4-4c3d-8927-016b1f2fbc10")
-		(property "Reference" "C39"
+		(property "Reference" "C33"
 			(at 388.366 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12461,7 +12261,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "C39")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -12479,7 +12279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02ddc3dd-d6ab-4850-83c6-f4b0dd5223bf")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR034"
 			(at 193.04 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12539,7 +12339,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR032")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -13045,7 +12845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b8a727c-0e2c-4a3c-977d-f6a254cb6a26")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR064"
 			(at 304.8 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -13105,7 +12905,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR063")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -13528,7 +13328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12a6eed9-115d-4848-a386-10b213aa5eee")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR055"
 			(at 267.97 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -13588,7 +13388,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR054")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -13606,7 +13406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "141d5446-b20c-4a93-82de-d241b672b040")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0102"
 			(at 398.78 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -13666,7 +13466,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR0109")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -13761,84 +13561,6 @@
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 358.14 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "144d57c1-9222-42dd-9735-c456b1e41798")
-		(property "Reference" "#PWR089"
-			(at 358.14 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 358.14 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 358.14 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 358.14 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 358.14 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2abb83ba-1c79-4bb8-b645-85f66f7668f8")
-		)
-		(instances
-			(project "Yuzu Pocket"
-				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -14350,7 +14072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ae1dcf0-2470-47eb-a24f-cd330ba84f12")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR079"
 			(at 312.42 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -14410,7 +14132,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR078")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -14428,7 +14150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c627585-6a93-456a-b2ce-33e82eab718a")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR062"
 			(at 302.26 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -14488,7 +14210,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR061")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -14667,87 +14389,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 365.76 30.48 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1ea948b4-9360-4771-8e07-67d58e36961f")
-		(property "Reference" "C34"
-			(at 366.776 33.274 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ".1uF"
-			(at 366.776 35.814 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 364.7948 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 365.76 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 365.76 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f2abff59-6a38-4525-a639-e0502cd2e25a")
-		)
-		(pin "2"
-			(uuid "42ebef7e-b52b-4a95-bd74-c4f49ab8f86f")
-		)
-		(instances
-			(project "Yuzu Pocket"
-				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 398.78 232.41 0)
 		(unit 1)
@@ -14759,7 +14400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ef03aac-c194-408e-9da6-99754a4d8968")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0103"
 			(at 398.78 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -14819,7 +14460,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR0110")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -15235,165 +14876,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 358.14 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27c193e6-e40c-41f6-87f8-b50ba85ba8c1")
-		(property "Reference" "#PWR090"
-			(at 358.14 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 358.14 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 358.14 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 358.14 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 358.14 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "afff46d0-ed82-4676-8a56-a5f3ad9233f0")
-		)
-		(instances
-			(project "Yuzu Pocket"
-				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 358.14 55.88 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "28a868d7-6c00-4c2b-b67e-2e35c726ecc1")
-		(property "Reference" "C33"
-			(at 359.156 58.674 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ".1uF"
-			(at 359.156 61.214 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 357.1748 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 358.14 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 358.14 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c92a471-96db-445e-b9cc-98414b1e9e9f")
-		)
-		(pin "2"
-			(uuid "4c4b733f-082a-42f8-b69e-4906dc1b971e")
-		)
-		(instances
-			(project "Yuzu Pocket"
-				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 246.38 54.61 0)
 		(unit 1)
@@ -15405,7 +14887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a9d5b83-392a-4aa9-a9c3-9b70e15f9235")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 246.38 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -15465,7 +14947,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -15660,7 +15142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2edec212-3e5c-49e6-a0be-2cba4e2fa3ec")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR087"
 			(at 342.9 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -15720,7 +15202,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR086")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -15738,7 +15220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fff4af0-122c-445d-b5d0-87af74b0b054")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR096"
 			(at 396.24 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -15798,15 +15280,15 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR0103")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 373.38 60.96 0)
+		(lib_id "Device:C")
+		(at 358.14 55.88 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15814,31 +15296,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31141879-73df-44de-a4da-4e419a8ae514")
-		(property "Reference" "#PWR094"
-			(at 373.38 67.31 0)
-			(hide yes)
+		(uuid "3178ee65-02e9-42a9-9ae3-4071603f5964")
+		(property "Reference" "C35"
+			(at 359.156 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "GND"
-			(at 373.38 66.04 0)
+		(property "Value" ".1uF"
+			(at 359.156 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 373.38 60.96 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 357.1748 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15849,7 +15331,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 373.38 60.96 0)
+			(at 358.14 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15859,8 +15341,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 373.38 60.96 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 358.14 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15871,12 +15353,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "05d875e1-69e8-49ae-9b14-f6a169b8c62b")
+			(uuid "eb1ff5bb-3be9-4942-8361-3d314fe18b3b")
+		)
+		(pin "2"
+			(uuid "ae5dbe5f-c0fb-4bf9-b6c9-87721ae5c993")
 		)
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR094")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -15894,7 +15379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31e2c109-b10a-4abc-9964-21c87232224b")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR091"
 			(at 383.54 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -15955,7 +15440,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR095")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -16215,7 +15700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bd8ecda-e9e3-43fc-a8b3-447b534031c4")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR081"
 			(at 320.04 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -16275,7 +15760,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR080")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -16283,7 +15768,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 149.86 0)
+		(at 198.12 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16293,8 +15778,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c27e943-8614-4005-9896-179575c03f3b")
-		(property "Reference" "#PWR039"
-			(at 171.45 156.21 0)
+		(property "Reference" "#PWR037"
+			(at 198.12 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16305,7 +15790,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 154.94 0)
+			(at 198.12 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16315,7 +15800,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 149.86 0)
+			(at 198.12 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16326,7 +15811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 149.86 0)
+			(at 198.12 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16337,7 +15822,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 149.86 0)
+			(at 198.12 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16353,7 +15838,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR039")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -16361,7 +15846,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 149.86 0)
+		(at 190.5 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16372,7 +15857,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c6290ac-52b7-4895-bbd8-800ea2d39089")
 		(property "Reference" "#PWR033"
-			(at 163.83 156.21 0)
+			(at 190.5 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16383,7 +15868,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 154.94 0)
+			(at 190.5 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16393,7 +15878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 149.86 0)
+			(at 190.5 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16404,7 +15889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 149.86 0)
+			(at 190.5 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16415,7 +15900,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 149.86 0)
+			(at 190.5 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16527,7 +16012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cfe790d-534f-4681-bd32-9fe900e6c7ca")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0104"
 			(at 400.05 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -16587,7 +16072,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR0111")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -16841,87 +16326,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 358.14 30.48 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "41016414-2bb6-4afa-a0b3-6b017c5b489f")
-		(property "Reference" "C32"
-			(at 359.156 33.274 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ".1uF"
-			(at 359.156 35.814 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 357.1748 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 358.14 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 358.14 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d34fe188-5f7f-41b3-806a-e99f50937763")
-		)
-		(pin "2"
-			(uuid "5afd078e-b2ef-434c-92a1-ce1410deaeab")
-		)
-		(instances
-			(project "Yuzu Pocket"
-				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_A")
 		(at 88.9 49.53 0)
 		(unit 1)
@@ -17022,7 +16426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41d46630-ca86-4243-a247-1539e38feb41")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 236.22 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -17082,7 +16486,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -17090,7 +16494,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 167.64 138.43 0)
+		(at 194.31 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17100,8 +16504,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4230f59c-0f54-44b2-a8af-84e645e35bfb")
-		(property "Reference" "#PWR035"
-			(at 167.64 142.24 0)
+		(property "Reference" "#PWR036"
+			(at 194.31 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17112,7 +16516,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 167.64 133.35 0)
+			(at 194.31 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17122,7 +16526,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 138.43 0)
+			(at 194.31 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17133,7 +16537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 138.43 0)
+			(at 194.31 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17144,7 +16548,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 167.64 138.43 0)
+			(at 194.31 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17160,7 +16564,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -17330,84 +16734,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 387.35 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46299663-71ff-4f96-ac26-77a11e4f58ba")
-		(property "Reference" "#PWR097"
-			(at 387.35 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 387.35 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 387.35 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 387.35 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 387.35 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "569d521a-9450-4678-a369-c971706aeb0a")
-		)
-		(instances
-			(project "Yuzu Pocket"
-				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 306.07 222.25 0)
 		(unit 1)
@@ -17419,7 +16745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "467533fb-99f6-4018-8913-61f6e4776c35")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR076"
 			(at 306.07 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -17479,7 +16805,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR075")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -17497,7 +16823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "472a9da3-e306-41d0-b311-cc22c06087df")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0100"
 			(at 398.78 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -17557,7 +16883,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR0107")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -17575,7 +16901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47f8c86e-3354-4caa-9421-044981ac2bf4")
-		(property "Reference" "U10"
+		(property "Reference" "U9"
 			(at 351.79 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18051,7 +17377,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "U10")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -18069,7 +17395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48df88e4-2430-4562-bf75-e869040757c0")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR058"
 			(at 280.67 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -18129,88 +17455,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 350.52 55.88 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4dfe4951-d733-445a-83ad-3ed0944958e0")
-		(property "Reference" "C31"
-			(at 351.536 58.674 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ".1uF"
-			(at 351.536 61.214 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 349.5548 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 350.52 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a26aff4e-860c-484d-ba42-c9185b2bee79")
-		)
-		(pin "2"
-			(uuid "81f37b4c-9508-47e1-bbd6-bb873a69c68d")
-		)
-		(instances
-			(project "Yuzu Pocket"
-				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "C31")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -18378,87 +17623,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 387.35 30.48 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4eadb793-6f55-450a-8fd3-5b4c966d8727")
-		(property "Reference" "C38"
-			(at 388.366 33.274 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ".1uF"
-			(at 388.366 35.814 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 386.3848 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 387.35 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 387.35 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b6920616-0708-42a3-b2dd-b5b0fd1a82be")
-		)
-		(pin "2"
-			(uuid "d3152877-9db0-466e-94d0-417a7bd241c1")
-		)
-		(instances
-			(project "Yuzu Pocket"
-				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 304.8 128.27 0)
 		(unit 1)
@@ -18470,7 +17634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ecff795-d84e-4805-b74a-0306c8a3689f")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR069"
 			(at 304.8 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -18530,7 +17694,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR068")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -18631,7 +17795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50c7ed34-21e3-42bf-98de-10cc75c8c0b2")
-		(property "Reference" "U9"
+		(property "Reference" "U8"
 			(at 274.32 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18702,7 +17866,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "U9")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -19120,7 +18284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58344dc8-8dca-4e2b-b15b-65adde57d4ad")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR050"
 			(at 254 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -19180,7 +18344,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR049")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -19198,7 +18362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59af330b-9a76-4792-b73f-8644a4743225")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR061"
 			(at 302.26 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -19258,88 +18422,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 350.52 30.48 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "59bf7d9c-b9c2-42de-b228-ec5667a04ded")
-		(property "Reference" "C30"
-			(at 351.536 33.274 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ".1uF"
-			(at 351.536 35.814 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 349.5548 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 350.52 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "01271f3f-0e3b-44d9-bded-9e7d136d0883")
-		)
-		(pin "2"
-			(uuid "d3d6fb1a-a10d-410b-b58a-d4c71f003108")
-		)
-		(instances
-			(project "Yuzu Pocket"
-				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "C30")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -19357,7 +18440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a5ce7af-326f-44b7-b7d7-1669d6ad237f")
-		(property "Reference" "U8"
+		(property "Reference" "U7"
 			(at 236.22 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19428,7 +18511,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "U8")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -19540,7 +18623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d0ddbf2-90e5-4db6-b005-471a0b58166f")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR060"
 			(at 284.48 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -19600,7 +18683,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR059")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -19618,7 +18701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d79d6e3-136b-4694-bb5d-4126544340e3")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR047"
 			(at 245.11 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -19678,7 +18761,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR046")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -19696,7 +18779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dbba7e4-9e22-40f3-8905-2707af3c8413")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR032"
 			(at 190.5 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -19756,7 +18839,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR0115")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -19841,84 +18924,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 350.52 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fdb05e7-ec2a-4746-a661-60f39f853af7")
-		(property "Reference" "#PWR088"
-			(at 350.52 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 350.52 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 350.52 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 350.52 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "39b1f850-3ae9-4023-964a-58967d76d752")
-		)
-		(instances
-			(project "Yuzu Pocket"
-				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 304.8 173.99 0)
 		(unit 1)
@@ -19930,7 +18935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61412c38-2179-4a13-8485-9b23b2a95fe9")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR072"
 			(at 304.8 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -19990,7 +18995,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR071")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -20008,7 +19013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62586221-5275-442e-8baf-5dc8bc80841d")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR066"
 			(at 304.8 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -20068,84 +19073,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 387.35 25.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "633cf3c4-7a4f-4f16-9a58-93aa5d79e51b")
-		(property "Reference" "#PWR096"
-			(at 387.35 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1.5V"
-			(at 391.414 23.622 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 387.35 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 387.35 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 387.35 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "89dc4532-02e1-4755-940c-589b0094fad8")
-		)
-		(instances
-			(project "Yuzu Pocket"
-				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR096")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -20241,7 +19169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65fc4de5-a28c-4d20-881a-87cc4cc7326b")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR098"
 			(at 398.78 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -20301,7 +19229,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR0105")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -20309,7 +19237,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 163.83 143.51 180)
+		(at 190.5 143.51 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20318,8 +19246,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "670249ff-c48e-4520-8c80-e1360253e043")
-		(property "Reference" "C11"
-			(at 164.846 146.304 0)
+		(property "Reference" "C10"
+			(at 191.516 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20330,7 +19258,7 @@
 			)
 		)
 		(property "Value" ".1uF"
-			(at 164.846 148.844 0)
+			(at 191.516 148.844 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20341,7 +19269,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 162.8648 139.7 0)
+			(at 189.5348 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20352,7 +19280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 143.51 0)
+			(at 190.5 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20363,7 +19291,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 163.83 143.51 0)
+			(at 190.5 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20382,7 +19310,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "C11")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -20883,7 +19811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a276648-6b42-4a5e-8cc2-2e4173e70c3d")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 264.16 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -20943,7 +19871,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR052")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -20961,7 +19889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ae37ed7-bcb0-49e7-84f6-b681bb16951b")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR083"
 			(at 327.66 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -21021,88 +19949,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 394.97 30.48 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6b69ea28-0d19-4717-a19d-9ebb804a684d")
-		(property "Reference" "C40"
-			(at 395.986 33.274 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ".1uF"
-			(at 395.986 35.814 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 394.0048 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 394.97 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 394.97 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "51483197-ccee-49d0-9327-200b682e12da")
-		)
-		(pin "2"
-			(uuid "331c63b0-d8f5-4264-b3db-a762b5e66073")
-		)
-		(instances
-			(project "Yuzu Pocket"
-				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "C40")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -21187,6 +20034,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 350.52 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6bfda45e-385f-4ae3-a2d0-720d0a097216")
+		(property "Reference" "C31"
+			(at 351.536 58.674 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ".1uF"
+			(at 351.536 61.214 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 349.5548 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 350.52 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "594f8e4a-f7a0-42e7-a491-07d90a05656b")
+		)
+		(pin "2"
+			(uuid "eb4dc7a7-4d67-4529-8369-b5f240cf9be5")
+		)
+		(instances
+			(project "Yuzu Pocket"
+				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 201.93 41.91 0)
 		(unit 1)
@@ -21198,7 +20126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c6a9069-89ed-493a-9488-6d60ba9f3568")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 201.93 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -21258,7 +20186,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR037")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -21275,7 +20203,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c6cdd13-d80c-48d2-b30a-e47eaf0e31b3")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 201.676 49.784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21339,7 +20267,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -21357,7 +20285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cfefb59-a2ec-4c34-b34a-4072c41d8792")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR057"
 			(at 274.32 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -21417,7 +20345,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR056")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -21592,6 +20520,87 @@
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 350.52 30.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "77d6cf61-e843-4316-8e4c-46c12310f1f0")
+		(property "Reference" "C30"
+			(at 351.536 33.274 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ".1uF"
+			(at 351.536 35.814 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 349.5548 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 350.52 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9995868d-5673-46e8-b528-7cd481944db0")
+		)
+		(pin "2"
+			(uuid "f20b0620-c2ed-4d0b-80ec-9a589fe03aff")
+		)
+		(instances
+			(project "Yuzu Pocket"
+				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -22027,7 +21036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "822dda7d-da56-4e8a-bff0-56d6a8a8b4cc")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR080"
 			(at 320.04 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -22087,7 +21096,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR079")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -22277,7 +21286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84f4c6af-e959-412b-adc7-60f79e828a90")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR075"
 			(at 306.07 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -22337,7 +21346,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR074")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -22355,7 +21364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "868a1493-a2e3-413c-bcae-142fb2367afd")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR038"
 			(at 200.66 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -22415,7 +21424,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR036")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -22433,7 +21442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89eba84b-f49c-49ac-b2a3-69ec74dfc383")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR068"
 			(at 304.8 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -22493,7 +21502,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR067")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -22593,7 +21602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c04f50a-29fd-4af0-ac3a-ca4964b63600")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0101"
 			(at 398.78 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -22653,7 +21662,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR0108")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -22749,7 +21758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93ab85be-9919-4a53-ac85-d1902793ec1d")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 247.65 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -22809,7 +21818,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -22907,7 +21916,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95cb8e10-132f-48f7-ab55-7966a9e9bc7a")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR095"
 			(at 396.24 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -22967,7 +21976,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR0102")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -22985,7 +21994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9609c6dd-d9f8-47d6-a5ec-cb13c1d6e8a3")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR082"
 			(at 327.66 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -23045,7 +22054,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR081")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -23327,87 +22336,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 373.38 30.48 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9aaa5967-efba-40bd-9a37-d1a6dadc7acc")
-		(property "Reference" "C36"
-			(at 374.396 33.274 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ".1uF"
-			(at 374.396 35.814 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 372.4148 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 373.38 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 373.38 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "124b28a1-ef7e-4244-a6e0-8a08422e4db9")
-		)
-		(pin "2"
-			(uuid "fad69f7d-4ee5-4f5d-aebb-5a6a2c1a8d43")
-		)
-		(instances
-			(project "Yuzu Pocket"
-				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 304.8 151.13 0)
 		(unit 1)
@@ -23419,7 +22347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aef3ce7-1f37-4e33-9609-c6aa9722e7fc")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR071"
 			(at 304.8 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -23479,7 +22407,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR070")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -23497,7 +22425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bf39110-9099-465a-87e5-ceaf35031997")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR056"
 			(at 271.78 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -23557,7 +22485,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR055")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -23575,7 +22503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c3f8c8b-34f3-4f47-aba9-c125fb905716")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR073"
 			(at 304.8 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -23635,7 +22563,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR072")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -23652,7 +22580,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ccca341-cd55-4fd8-81cc-f5bfacb1d297")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 194.056 49.784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23716,7 +22644,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -23798,84 +22726,6 @@
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
 					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 350.52 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a361a450-ebb8-4771-b14c-30b70384aa6c")
-		(property "Reference" "#PWR087"
-			(at 350.52 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 350.52 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 350.52 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 350.52 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "34ab3f24-ef8a-4d8c-9042-d57b6f81937a")
-		)
-		(instances
-			(project "Yuzu Pocket"
-				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -24006,7 +22856,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 171.45 143.51 180)
+		(at 198.12 143.51 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24015,8 +22865,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5834bb8-4717-44aa-b3a4-91d1f442750d")
-		(property "Reference" "C13"
-			(at 172.466 146.304 0)
+		(property "Reference" "C12"
+			(at 199.136 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24027,7 +22877,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 172.466 148.844 0)
+			(at 199.136 148.844 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24038,7 +22888,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 170.4848 139.7 0)
+			(at 197.1548 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24049,7 +22899,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 143.51 0)
+			(at 198.12 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24060,7 +22910,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 171.45 143.51 0)
+			(at 198.12 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24079,7 +22929,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -24097,7 +22947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a740c1e5-08ba-4c8c-a865-5a9bdf62ba24")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR063"
 			(at 302.26 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -24157,7 +23007,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR062")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -24487,7 +23337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b138902d-c5bf-4862-8910-0a80471285f7")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR067"
 			(at 304.8 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -24547,7 +23397,85 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR066")
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 358.14 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2adb0f1-1576-48e5-96c1-d6e0109f89b3")
+		(property "Reference" "#PWR090"
+			(at 358.14 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 358.14 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 358.14 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5f60caf-40a0-494a-a7da-984bc23f303e")
+		)
+		(instances
+			(project "Yuzu Pocket"
+				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -24659,7 +23587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b36ef172-342a-4f01-90b4-9a50deaaea01")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR086"
 			(at 342.9 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -24719,7 +23647,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR085")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -24992,7 +23920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b51c86bc-df05-4fc4-83ea-2ba43430bca6")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR065"
 			(at 304.8 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -25052,7 +23980,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR064")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -25311,7 +24239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6c0cbb2-eb8f-4cbc-a34e-6d15c4deaba3")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0105"
 			(at 400.05 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -25371,247 +24299,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 394.97 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b71aca22-d59d-4e9c-97b6-3fbfd84538cb")
-		(property "Reference" "#PWR0100"
-			(at 394.97 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 394.97 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 394.97 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 394.97 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 394.97 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d31d0511-dd3a-4104-8b79-e9ab691e6c91")
-		)
-		(instances
-			(project "Yuzu Pocket"
-				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR0100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 365.76 55.88 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b79f2f3e-94d0-4642-aaff-bcd62e29f857")
-		(property "Reference" "C35"
-			(at 366.776 58.674 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ".1uF"
-			(at 366.776 61.214 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 364.7948 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 365.76 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 365.76 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bf6b0df4-9359-4229-845c-452d436719bf")
-		)
-		(pin "2"
-			(uuid "3ca01373-b478-4459-bd70-2189fef03e90")
-		)
-		(instances
-			(project "Yuzu Pocket"
-				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 373.38 55.88 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b7b24f63-0ce9-4717-bbf4-f2767b81f635")
-		(property "Reference" "C37"
-			(at 374.396 58.674 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ".1uF"
-			(at 374.396 61.214 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 372.4148 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 373.38 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 373.38 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bc9f461e-e797-4223-a99a-4eaef7eb9581")
-		)
-		(pin "2"
-			(uuid "f17cf837-2e65-4833-b6cd-81719f2ea549")
-		)
-		(instances
-			(project "Yuzu Pocket"
-				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "C37")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -25711,7 +24399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8cbe496-fe71-47fd-8277-74dca7636027")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR043"
 			(at 229.87 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -25771,7 +24459,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR0113")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -25870,7 +24558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9ed9ad1-d32d-4862-9ba7-af770feaf7c3")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR054"
 			(at 267.97 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -25930,7 +24618,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR053")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -25948,7 +24636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bae46e0d-9130-4b64-80ca-94fec059da9b")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR045"
 			(at 236.22 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -26008,7 +24696,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR044")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -26271,6 +24959,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 350.52 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c232db02-130f-4a0a-b62e-15004d2b0664")
+		(property "Reference" "#PWR089"
+			(at 350.52 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 350.52 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 350.52 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 350.52 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7212c980-66f6-45d5-9ee7-88604b67dfa8")
+		)
+		(instances
+			(project "Yuzu Pocket"
+				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 39.37 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -26437,7 +25203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c688d8cb-0f3c-496d-a2dc-681b7a802ab2")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR093"
 			(at 387.35 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -26497,7 +25263,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR099")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -26690,7 +25456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7eaa2ca-707c-4c41-a43c-c88e5f7d219b")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR097"
 			(at 398.78 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -26750,7 +25516,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR0104")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -26768,7 +25534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9272c41-2ebb-4689-a822-8c33f56def5b")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR070"
 			(at 304.8 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -26828,7 +25594,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR069")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -27519,7 +26285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7951349-7d13-4e6c-bcb3-49ea8981417b")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR094"
 			(at 394.97 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -27579,7 +26345,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR0101")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -27597,7 +26363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7a950ae-739f-4b7d-a101-2cbf8a99aa72")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR085"
 			(at 335.28 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -27657,7 +26423,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR084")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -27675,7 +26441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8818e90-d7c6-4d97-9d17-d40cdcf3eb3c")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 229.87 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -27735,7 +26501,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -27753,7 +26519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8ff459c-0711-4950-ae0a-17b48717baee")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR059"
 			(at 281.94 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -27813,7 +26579,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR058")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -27993,7 +26759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df0473db-4e22-4201-8e17-19acf45ebbbc")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR074"
 			(at 304.8 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -28053,7 +26819,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR073")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -28071,7 +26837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e00dba69-caa1-473b-8ec5-5e2f0cb68a95")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR035"
 			(at 194.31 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -28131,7 +26897,88 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR0114")
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 358.14 30.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e07f0c70-da8c-4783-973a-eb18edede785")
+		(property "Reference" "C32"
+			(at 359.156 33.274 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ".1uF"
+			(at 359.156 35.814 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 357.1748 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 358.14 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1f48b21-c4ec-4a04-b358-57b5173f1f65")
+		)
+		(pin "2"
+			(uuid "96564d99-0270-443c-968f-5d746119f118")
+		)
+		(instances
+			(project "Yuzu Pocket"
+				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -28288,6 +27135,162 @@
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 358.14 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e480541b-ac3d-4805-8fb2-3c8eee3c5f59")
+		(property "Reference" "#PWR0106"
+			(at 358.14 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 358.14 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 358.14 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c231f7de-8b85-45c6-97e1-b9fa743a0c9c")
+		)
+		(instances
+			(project "Yuzu Pocket"
+				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 350.52 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5ea6eb8-8285-4285-8eb9-bb992bf471c3")
+		(property "Reference" "#PWR088"
+			(at 350.52 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 350.52 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 350.52 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 350.52 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef71f0f7-f18e-439d-8e99-39d4c55bdb16")
+		)
+		(instances
+			(project "Yuzu Pocket"
+				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -28549,7 +27552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e97a1e4b-e502-41de-9ee3-458ca098e36e")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR092"
 			(at 387.35 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -28609,84 +27612,6 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR098")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 365.76 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9b05cd6-9b2b-4cf4-bfb9-c35ae0014b3b")
-		(property "Reference" "#PWR092"
-			(at 365.76 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 365.76 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 365.76 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 365.76 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 365.76 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0281e4a0-d6c6-42b0-8231-1517f941b0ec")
-		)
-		(instances
-			(project "Yuzu Pocket"
-				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
 					(reference "#PWR092")
 					(unit 1)
 				)
@@ -28705,7 +27630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9b87a8c-8504-4401-ab94-2347b5716d36")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 257.81 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -28765,85 +27690,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 373.38 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb981e0a-f5d9-4ceb-ad98-1f013ba1fb4c")
-		(property "Reference" "#PWR093"
-			(at 373.38 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 373.38 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 373.38 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 373.38 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 373.38 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6840d80a-62e2-4fcf-a99d-871d84132b95")
-		)
-		(instances
-			(project "Yuzu Pocket"
-				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR093")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -28941,7 +27788,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed2c4677-0f88-418e-a132-ee26b972c5f5")
-		(property "Reference" "C41"
+		(property "Reference" "C34"
 			(at 395.986 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29005,7 +27852,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "C41")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -29245,84 +28092,6 @@
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 365.76 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0102a66-88af-4aee-9d5b-b8c6903b9e1d")
-		(property "Reference" "#PWR091"
-			(at 365.76 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 365.76 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 365.76 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 365.76 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 365.76 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "654f70a5-aef9-4744-a882-223fdcf4b003")
-		)
-		(instances
-			(project "Yuzu Pocket"
-				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -29585,7 +28354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3e7a288-ff1c-49c7-bd33-f27de23317c8")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR084"
 			(at 335.28 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -29645,7 +28414,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR083")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -30313,7 +29082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8179e04-e41c-4210-8140-abbccb8ccc0e")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR077"
 			(at 309.88 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -30373,7 +29142,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR076")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -30391,7 +29160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f98fed00-f4cd-469e-a697-353ee82f4cfe")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR099"
 			(at 398.78 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -30451,7 +29220,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR0106")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -30469,7 +29238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa3a6848-9370-4c8e-b7ef-90aeea37537c")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR078"
 			(at 312.42 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -30529,7 +29298,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR077")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -30547,7 +29316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe13140d-2bed-490f-840e-964445374acf")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 262.89 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -30607,7 +29376,7 @@
 		(instances
 			(project "Yuzu Pocket"
 				(path "/31e36cfb-f0d0-4be1-a833-1c685f909ef0"
-					(reference "#PWR051")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
