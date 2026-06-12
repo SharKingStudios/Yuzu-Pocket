@@ -1,0 +1,24 @@
+#!/bin/sh
+
+case "$1" in
+	start)
+		if command -v ttyd >/dev/null 2>&1; then
+			start-stop-daemon -S -b -m -p /var/run/ttyd.pid -- \
+				ttyd -i usb0 -p 7681 -W -t titleFixed="Yuzu Pocket" /bin/login
+		fi
+		;;
+	stop)
+		start-stop-daemon -K -p /var/run/ttyd.pid 2>/dev/null || true
+		;;
+	restart|reload)
+		"$0" stop
+		"$0" start
+		;;
+	*)
+		echo "Usage: $0 {start|stop|restart}"
+		exit 1
+		;;
+esac
+
+exit 0
+

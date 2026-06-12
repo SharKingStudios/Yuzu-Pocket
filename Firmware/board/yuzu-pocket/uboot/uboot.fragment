@@ -1,0 +1,18 @@
+CONFIG_DEFAULT_DEVICE_TREE="allwinner/sun8i-v3s-licheepi-zero"
+CONFIG_BOOTDELAY=1
+CONFIG_USE_BOOTARGS=y
+CONFIG_BOOTARGS="console=ttyS0,115200 root=/dev/mmcblk0p2 rootwait rw panic=5"
+CONFIG_USE_BOOTCOMMAND=y
+CONFIG_BOOTCOMMAND="load mmc 0:1 ${kernel_addr_r} zImage; load mmc 0:1 ${fdt_addr_r} sun8i-v3lp-yuzu-pocket.dtb; bootz ${kernel_addr_r} - ${fdt_addr_r}"
+CONFIG_CMD_MMC=y
+CONFIG_CMD_FAT=y
+CONFIG_CMD_EXT4=y
+CONFIG_CMD_GPIO=y
+CONFIG_CMD_SPI=y
+CONFIG_CMD_SF=y
+CONFIG_DM_SPI=y
+CONFIG_SPI=y
+CONFIG_SUN6I_SPI=y
+CONFIG_DM_SPI_FLASH=y
+CONFIG_SPI_FLASH=y
+CONFIG_SPI_FLASH_WINBOND=y

@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+
+dmesg | grep -iE 'spi|jedec|w25q|mtd' || true
+cat /proc/mtd 2>/dev/null || true
+

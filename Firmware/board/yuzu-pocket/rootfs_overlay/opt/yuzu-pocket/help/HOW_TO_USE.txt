@@ -1,0 +1,25 @@
+Yuzu Pocket
+===========
+
+Plug the card into a USB port and give it a few seconds to boot.
+
+Terminal:
+  http://loganpeterson.local:7681/
+
+Fallback terminal URL:
+  http://10.0.0.1:7681/
+
+Login:
+  user: root
+  password: none
+
+USB services:
+  - CDC ACM serial console
+  - USB ECM network
+  - Read-only help drive
+
+Minecraft demo:
+  A bareiron integration point is reserved, but it is not enabled in this
+  default image yet. bareiron needs generated Minecraft registry data before
+  it can compile. See Firmware/board/yuzu-pocket/bareiron/README.md.
+

@@ -1,2 +1,14 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+* text=auto
+
+# Firmware build scripts must stay LF for Linux/WSL.
+Firmware/**/*.sh text eol=lf
+Firmware/**/Config.in text eol=lf
+Firmware/**/*.mk text eol=lf
+Firmware/**/*.cmd text eol=lf
+Firmware/**/*.dts text eol=lf
+Firmware/**/*.fragment text eol=lf
+
+# Docs are text, but keep them normalized to LF to avoid commit noise.
+*.md text eol=lf

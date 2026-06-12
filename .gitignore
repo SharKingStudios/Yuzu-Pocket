@@ -1,0 +1,12 @@
+/Firmware/debug/
+/Firmware/buildroot/
+/Firmware/output/
+/Firmware/dl/
+
+# Stray artifacts created when Buildroot/WSL sees the repo path split at
+# "Yuzu Pocket". These are generated, not source.
+/Firmware/Yuzu
+/Firmware/Pocket
+/Firmware/buildroot/Pocket
+/Firmware/yuzu-pocket-firmware-work/
+

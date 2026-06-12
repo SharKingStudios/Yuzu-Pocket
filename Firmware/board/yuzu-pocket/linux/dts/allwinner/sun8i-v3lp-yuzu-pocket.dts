@@ -1,0 +1,142 @@
+// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
+/*
+ * Yuzu Pocket business-card Linux board.
+ *
+ * V3LP is treated as V3s-compatible for this first firmware target.
+ * Confirmed board differences from Lichee Pi Zero are captured here.
+ */
+
+/dts-v1/;
+#include "sun8i-v3s.dtsi"
+#include "sunxi-common-regulators.dtsi"
+#include <dt-bindings/gpio/gpio.h>
+
+/ {
+	model = "Yuzu Pocket V3LP";
+	compatible = "yuzu,yuzu-pocket-v3lp", "allwinner,sun8i-v3s";
+
+	aliases {
+		serial0 = &uart0;
+		mmc0 = &mmc0;
+		spi0 = &spi0;
+	};
+
+	chosen {
+		stdout-path = "serial0:115200n8";
+		bootargs = "console=ttyS0,115200 earlycon root=/dev/mmcblk0p2 rootwait rw panic=5";
+	};
+
+	memory@40000000 {
+		device_type = "memory";
+		reg = <0x40000000 0x04000000>;
+	};
+
+	leds {
+		compatible = "gpio-leds";
+
+		red1 {
+			label = "yuzu:red:1";
+			gpios = <&pio 4 0 GPIO_ACTIVE_HIGH>; /* PE0 */
+		};
+
+		red2 {
+			label = "yuzu:red:2";
+			gpios = <&pio 4 1 GPIO_ACTIVE_HIGH>; /* PE1 */
+		};
+
+		red3 {
+			label = "yuzu:red:3";
+			gpios = <&pio 4 2 GPIO_ACTIVE_HIGH>; /* PE2 */
+		};
+
+		red4 {
+			label = "yuzu:red:4";
+			gpios = <&pio 4 3 GPIO_ACTIVE_HIGH>; /* PE3 */
+		};
+
+		red5 {
+			label = "yuzu:red:5";
+			gpios = <&pio 4 4 GPIO_ACTIVE_HIGH>; /* PE4 */
+		};
+
+		red6 {
+			label = "yuzu:red:6";
+			gpios = <&pio 4 5 GPIO_ACTIVE_HIGH>; /* PE5 */
+		};
+
+		red7 {
+			label = "yuzu:red:7";
+			gpios = <&pio 4 6 GPIO_ACTIVE_HIGH>; /* PE6 */
+		};
+
+		green1 {
+			label = "yuzu:green:1";
+			gpios = <&pio 4 7 GPIO_ACTIVE_HIGH>; /* PE7 */
+		};
+
+		green2 {
+			label = "yuzu:green:2";
+			gpios = <&pio 4 8 GPIO_ACTIVE_HIGH>; /* PE8 */
+		};
+
+		green3 {
+			label = "yuzu:green:3";
+			gpios = <&pio 4 9 GPIO_ACTIVE_HIGH>; /* PE9 */
+		};
+
+		green4 {
+			label = "yuzu:green:4";
+			gpios = <&pio 4 10 GPIO_ACTIVE_HIGH>; /* PE10 */
+		};
+
+		green5 {
+			label = "yuzu:green:5";
+			gpios = <&pio 4 11 GPIO_ACTIVE_HIGH>; /* PE11 */
+		};
+
+		green6 {
+			label = "yuzu:green:6";
+			gpios = <&pio 4 12 GPIO_ACTIVE_HIGH>; /* PE12 */
+		};
+
+		green7 {
+			label = "yuzu:green:7";
+			gpios = <&pio 4 13 GPIO_ACTIVE_HIGH>; /* PE13 */
+		};
+	};
+};
+
+&mmc0 {
+	broken-cd;
+	bus-width = <4>;
+	vmmc-supply = <&reg_vcc3v3>;
+	status = "okay";
+};
+
+&spi0 {
+	pinctrl-0 = <&spi0_pins>;
+	pinctrl-names = "default";
+	status = "okay";
+
+	flash@0 {
+		compatible = "jedec,spi-nor";
+		reg = <0>;
+		spi-max-frequency = <50000000>;
+	};
+};
+
+&uart0 {
+	pinctrl-0 = <&uart0_pb_pins>;
+	pinctrl-names = "default";
+	status = "okay";
+};
+
+&usb_otg {
+	dr_mode = "peripheral";
+	status = "okay";
+};
+
+&usbphy {
+	status = "okay";
+};
+

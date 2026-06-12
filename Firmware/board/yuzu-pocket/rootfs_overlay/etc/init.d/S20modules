@@ -1,0 +1,18 @@
+#!/bin/sh
+
+case "$1" in
+	start)
+		modprobe libcomposite 2>/dev/null || true
+		;;
+	stop)
+		;;
+	restart|reload)
+		"$0" start
+		;;
+	*)
+		echo "Usage: $0 {start|stop|restart}"
+		exit 1
+		;;
+esac
+
+exit 0

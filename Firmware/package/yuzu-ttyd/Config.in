@@ -1,0 +1,18 @@
+config BR2_PACKAGE_YUZU_TTYD
+	bool "yuzu-ttyd"
+	depends on BR2_USE_MMU
+	depends on BR2_TOOLCHAIN_HAS_THREADS
+	select BR2_PACKAGE_JSON_C
+	select BR2_PACKAGE_LIBUV
+	select BR2_PACKAGE_LIBWEBSOCKETS
+	select BR2_PACKAGE_ZLIB
+	help
+	  ttyd is a small web terminal server. Yuzu Pocket uses it to
+	  expose a local browser shell at http://loganpeterson.local:7681/.
+
+	  https://github.com/tsl0922/ttyd
+
+comment "yuzu-ttyd needs a toolchain w/ threads"
+	depends on BR2_USE_MMU
+	depends on !BR2_TOOLCHAIN_HAS_THREADS
+

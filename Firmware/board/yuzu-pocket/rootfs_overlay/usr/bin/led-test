@@ -1,0 +1,17 @@
+#!/bin/sh
+set -eu
+
+leds="$(find /sys/class/leds -maxdepth 1 -type l -name 'yuzu:*' | sort)"
+
+for led in $leds; do
+	echo 0 > "$led/brightness"
+done
+
+while :; do
+	for led in $leds; do
+		echo 1 > "$led/brightness"
+		sleep 0.08
+		echo 0 > "$led/brightness"
+	done
+done
+
