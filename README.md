@@ -210,3 +210,5 @@ It includes:
 - Enough exposed engineering decisions to create exciting new failure modes
 
 If you overwrite the wrong drive, short a power rail, install a component backward, or release the magic smoke, the business card will be significantly less useful at networking events.
+
+![Zine Page!](Renders/Yuzu%20Pocket%20Zine%20Poster.png)
