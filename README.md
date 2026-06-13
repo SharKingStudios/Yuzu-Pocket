@@ -1,2 +1,212 @@
-# Yuzu Pocket
-A PCB Business card that runs linux!
+# Yuzu Pocket - A PCB Business card that runs Linux!
+
+### compact and delightfully unnecessary.
+
+---
+
+## Renders
+*Visuals because everyone loves eye candy.*
+
+![Side PCB Render](/Renders/Yuzu%20Pocket%20Side.png)
+![Top PCB Render](/Renders/Yuzu%20Pocket%20Front.png)
+![Back PCB Render](/Renders/Yuzu%20Pocket%20Back.png)
+![Routing Glamour Shot](/Renders/copper%20front.png)
+![Schematic Picture](/Renders/schematic.png)
+
+---
+
+## BOM
+All the processors and storage sit **[here](/BOM.csv)**.
+
+**Main characters:**
+ - **Processor:** Allwinner V3LP
+ - **Onboard Storage:** Winbond W25Q256JVFIQT 256Mbit SPI flash
+ - **More Storage:** Micro SD Card Slot
+ - **Blinken Lights:** Red and Green
+- **Misc:** Boot circuitry, reset logic, pull-ups, decoupling, and other necessary magic
+
+(See `BOM.md` for full part values, footprints, and sourcing.)
+
+---
+
+## What is this?
+
+The **Yuzu Pocket** is a **Business Card that runs Linux** built around an Allwinner V3LP processor, designed to give important individuals my portfolio with some pizzazz!
+
+It does this using its onboard USB port, integrated right into the PCB copper, to talk to the host computer. To keep things interesting, the board exposes itself as a USB gadget, giving the host multiple points of access into the board. 
+
+## How It Works
+
+On startup, the board will connect to the host computer and expose itself as a network device, as well as a mass storage device.
+
+The mass storage that opens acts as the quick menu, and links the user to the more interesting parts of the project, including the hosted webpage at loganpeterson.local that exposes a shell, giving the user direct access into the device (where they can play the integrated terminal games / demos)
+
+At a high level:
+
+1. **The card is plugged into a USB port**
+3. The V3LP boots **U-Boot and Linux**
+4. Linux creates a composite USB gadget containing:
+   - A small read-only help drive
+   - A USB network interface
+   - A serial interface
+5. The host receives an address on the private USB network
+6. The card advertises itself as **`loganpeterson.local`**
+7. Opening the included shortcut launches a browser-based terminal
+8. The visitor is now using a Linux computer thats the size of a business card
+
+No extra special applications are required other than just having a host computer.
+
+---
+
+## Features
+
+### A Real Linux Computer
+
+Yuzu Pocket is not a microcontroller pretending to be a computer. The Allwinner V3LP contains a **32-bit ARM Cortex-A7 processor** and **64 MB of integrated DDR2 RAM**, giving the board enough room for:
+
+- U-Boot
+- A Linux kernel
+- BusyBox userspace
+- USB gadget services
+- A web terminal
+- Small native programs, games, and network demos
+
+The firmware is intentionally based on **Buildroot** rather than a full desktop distribution.
+
+---
+
+### Plug-In USB Experience
+
+The copper fingers on the edge of the PCB form a USB-A connector. Plugging the card into a computer is intended to provide both power and communication.
+
+The Linux USB gadget configuration can expose several functions over that single connection:
+
+- **Mass storage**
+  - Shows `HOW_TO_USE.txt`
+  - Includes browser shortcut files
+  - Acts as the card's quick-start menu
+- **USB Ethernet**
+  - Creates a private network between the host and Yuzu Pocket
+  - Uses `10.0.0.1` as a fallback address
+- **USB serial**
+  - Provides another route into the Linux console
+- **Web terminal**
+  - Served by [`ttyd`](https://github.com/tsl0922/ttyd)
+  - Intended URL: **`http://loganpeterson.local:7681/`**
+
+---
+
+### Onboard Storage
+
+Yuzu Pocket has two storage paths:
+
+| Storage | Capacity | Purpose |
+|---|---:|---|
+| Winbond W25Q256 SPI NOR | 256 Mbit / 32 MB | Compact onboard firmware and persistent assets |
+| microSD | Card dependent | Development, recovery, larger Linux images, and *experiments* |
+
+The initial development image targets microSD because it is easier to rebuild and recover. The final compact image is intended to fit within the **32 MB onboard SPI NOR**, using a small kernel and compressed root filesystem.
+
+That storage budget is tight enough to be interesting, but large enough for a fun Linux userspace.
+
+---
+
+### Fourteen Blinken Lights
+
+The card includes:
+
+- **7 red LEDs**
+- **7 green LEDs**
+- **14 total individually controlled channels**
+
+The LEDs are driven through two ULN2003 Darlington transistor arrays. Linux sees them as GPIO-controlled indicators, allowing them to be used for:
+
+- Boot progress
+- Storage activity
+- USB connection status
+- Network activity
+- Error codes
+- Loading animations
+- Tiny visual demos
+- *Gratuitous blinking*
+
+Because silent business cards are suspicious.
+
+---
+
+## Firmware
+
+Firmware lives in **[`Firmware/`](/Firmware/)** and is organized as a Buildroot external tree.
+
+The closest upstream starting point is the **Allwinner V3s / Lichee Pi Zero** support found in U-Boot and Linux. V3LP is treated as V3s-like for the initial port, with DRAM initialization being the part most likely to require V3LP-specific work.
+
+See the **[firmware README](/Firmware/README.md)** for build commands, image layout, and current implementation details.
+
+
+## What Can It Run?
+
+The target is small native Linux software.
+
+This includes:
+
+- Terminal games
+- LED animations
+- Tiny HTTP services
+- Network experiments
+- My Portfolio
+- A minimal Minecraft-protocol-compatible server
+- Whatever fits inside the remaining storage budget
+
+> There is an integration point reserved for [`p2r3/bareiron`](https://github.com/p2r3/bareiron), a compact C Minecraft server experiment. It is not enabled by default yet because upstream requires generated Minecraft registry data before compilation (and I havent gotten to that).
+
+---
+
+## Why?
+
+Because ordinary business cards:
+
+- Do not boot Linux
+- Have zero RAM??
+- Cannot host questionable software experiments
+
+Yuzu Pocket exists to be:
+
+- Memorable
+- Hackable
+- Small enough to carry everywhere
+- My small portfolio piece
+- A practical excuse to learn Linux board bring-up
+- Much more interesting than a QR code printed on cardstock (though it has one too!)
+
+---
+
+## Contributing
+
+Ideas, fixes, experiments, and constructive criticism are welcome.
+
+- Open an issue
+- Submit a pull request
+- Suggest a tiny program that belongs on the card
+- Improve the V3LP boot support
+- Help reduce the image size
+- Find a fun use for fourteen LEDs
+- Make the DOOM situation worse
+
+Please keep PCB and firmware changes clearly separated. Hardware files live in `PCB/`; firmware and build integration belong in `Firmware/`.
+
+---
+
+## Disclaimer
+
+This is an open hardware and firmware project under active development.
+
+It includes:
+
+- Custom power regulation
+- Fine-pitch PCB assembly
+- USB hardware
+- Boot firmware
+- Flashing tools capable of overwriting storage
+- Enough exposed engineering decisions to create exciting new failure modes
+
+If you overwrite the wrong drive, short a power rail, install a component backward, or release the magic smoke, the business card will be significantly less useful at networking events.
