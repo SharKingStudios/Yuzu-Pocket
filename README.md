@@ -127,7 +127,6 @@ The LEDs are driven through two ULN2003 Darlington transistor arrays. Linux sees
 - Network activity
 - Error codes
 - Loading animations
-- Tiny visual demos
 - *Gratuitous blinking*
 
 Because silent business cards are suspicious.
@@ -163,20 +162,9 @@ This includes:
 
 ## Why?
 
-Because ordinary business cards:
+The **Yuzu Pocket** exists because I wanted a portfolio piece that people would actually remember, rather than another ordinary business card or QR code printed on cardstock (though it has one too!).
 
-- Do not boot Linux
-- Have zero RAM??
-- Cannot host questionable software experiments
-
-Yuzu Pocket exists to be:
-
-- Memorable
-- Hackable
-- Small enough to carry everywhere
-- My small portfolio piece
-- A practical excuse to learn Linux board bring-up
-- Much more interesting than a QR code printed on cardstock (though it has one too!)
+It combines my interest in PCB design, embedded systems, and questionable software experiments into something small enough to carry everywhere and hand out to people.
 
 ---
 
